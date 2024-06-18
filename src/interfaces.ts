@@ -19,7 +19,7 @@ export class ConvertRequest {
     @IsNotEmpty()
     @IsString()
     target: string;
-
+// in real life there should be more sofisticated validation for the amount as that is definitely not enough to validate only if that is number
     @IsNotEmpty()
     @IsNumberString()
     amount: number;
