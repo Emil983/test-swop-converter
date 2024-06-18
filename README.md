@@ -1,6 +1,6 @@
 ## Description
 
-Coverter test task.
+Converter test task.
 
 Written for Node.js v20 with Nest.js. Sample backend application that accepts source and target currency and convert the amount using conversion rates from SWOP Rest API. In-memory cache is used to minimize request to SWOP and to cache responses. 
 
